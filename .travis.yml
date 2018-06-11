@@ -35,3 +35,9 @@ deploy:
       # if "tags" condition is present, the "branch" condition is ignored
       # if "tags" condition is not present, "branch" condition is considered
       #tags: false
+  - provider: heroku
+    api_key:
+      secure: fZDxKNSJFAG4hb8xBDgIETScpU2XEGOAM5RvcUX4hOpKquNg/jOaAP4htihNGhbBQXwFEI89gexWcAYYYU6nw5pMUbs7cXB2v0ewtntaAEQiSgq9iBRuJExpEJIg7K0ArTwju3JDWngMczHMPZo0XJmkHm7zK+10YfZoB+QwA6ZUKW6wx3WdfMWOqXWAuB7UCVRUZnlYJ2yPyWKxh8dzqLKt/gTLj+YBsXoAUxlaQBWt9ssuvJ34i7tMkN2m+mJ8ewVZ+BcDH+JIUBn0M0XbXsdIr7Sl9996Y5dfMv/g8LRyMbZC0awx7rwLw1ysELrWSgMHoWJZ1ym6SfsU64DWY5c1lqmpBxL39jqeUUEn/AQfvPkTOlM0stoHilO82aWwFOo8hd9DT6Yg1h02Uzpb+3EAZG3xYN+qcbIJEYmiaIc1YaLs+Mmdo4D3mc5IzCaqbjrEY+JG6CvOpXR2FZMWuMBoERZaTDdU/qaYf7llfvHGON+f+Zo2cRv4uBp0kcaAFUSpicfr+YuxnAXNh7+cyMtcaBfcaCO434HQ/ngeLjrvpan29scNvV3MzaUKszVVQgV5KVyIYWNKkdV8y1Sbrm47aUpgjYWPprADvXjOCmMBZ2n52UGiehNvMLpdchvV1kK02M7toNUh40R6NYTy+mClhEoXEjfycwmxO9xsaIo=
+    app: greeting-microservice
+    on:
+      branch: master
