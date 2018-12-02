@@ -1,4 +1,4 @@
-package de.debuglevel.greeting.rest
+package de.debuglevel.omnitrackerdocumentation.rest
 
 /**
  * Application entry point.
