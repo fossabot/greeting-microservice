@@ -15,6 +15,7 @@ object FolderController {
                     .map { folder ->
                         FolderDTO(
                                 folder.name,
+                                folder.path,
                                 folder.fields.values
                                         .map { field ->
                                             FieldDTO(
