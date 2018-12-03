@@ -73,7 +73,7 @@ dependencies {
     compile 'com.google.code.gson:gson:2.8.5'
 
     // OMNITRACKER Database Binding
-    compile 'de.debuglevel.omnitrackerdatabasebinding:omnitrackerdatabasebinding:0.0.2-SNAPSHOT'
+    compile 'de.debuglevel.omnitrackerdatabasebinding:omnitrackerdatabasebinding:0.0.2'
 
     // khttp (HTTP client)
     //compile 'com.github.jkcclemens:khttp:-SNAPSHOT'
